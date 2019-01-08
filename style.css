@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+html{
+	height: 100%;
+}
+
+#landingimg {
+	max-width: 100%;
+	height: auto;
+}
+
+.jumbotron {
+	background: url("/Seamus Prof Photo.png");
+	background-size: cover;
+	background-postion: center;
+	height: 800px;
+	width: 1920px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 0px;
+}
+
+#topnav {
+	background-color: #FFFFFF;
+}

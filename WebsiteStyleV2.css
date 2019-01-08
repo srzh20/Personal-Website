@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+#LandingSection{
+	height: 100%;
+}
+
+/*img.gallery:hover {*/
+/*	background-image: url(https://i.imgur.com/GSJk3U0.png);*/
+
+#imgtest:hover {
+	background: url();
+}
+
+
+#landingimg {
+  justify-content: center;
+	height: 400px;
+	align-content: center;
+	align-items: center;
+	padding-top: auto;
+	padding-bottom: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+
+
+#picdiv {
+	height: 100%;
+}
+	
+
+#topnav {
+	background-color: #FFFFFF;
+	height: 200px;
+	
+
+}
+
+.regnav {
+	padding-top: 15px;
+	background-color: #FFFFFF;
+	height: 100px;
+}
+
+#bottomnav {
+	background-color: #FFFFFF;
+}
+
+#homebottomnav {
+	background-color: #FFFFFF;
+	height: 200px;
+}
+
+#Gallery {
+	margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image_off, #home:hover .image_on{
+   display:none
+}
+.image_on, #home:hover .image_off{
+   display:block
+}
+
+
+.responsive {
+  
+  height: 650px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.bimg {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#handdrawing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.img-thumbnail{
+	border: #FFFFFF thin dotted;
+}
+
+
+
+/*
+.cimg {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+*/
+
+/*
+.dmobile {
+	height: 50%;
+	justify-content: center;
+}
+*/
+
+
+/*
+body {
+  padding-top: 54px;
+}
+*/
+
+/*
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+*/
