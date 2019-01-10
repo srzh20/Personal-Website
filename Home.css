@@ -1,4 +1,4 @@
-@charset "utf-8";
+target="_blank"target="_blank"@charset "utf-8";
 
 
 .landing {
@@ -13,7 +13,8 @@
 }
 
 .mobilelanding {
-	padding-top: 5%;
+	position: absolute;
+	top: 25%;
 }
 
 html, body {

@@ -101,7 +101,7 @@ button.navbar-toggler:focus { outline: 1px none; }
 
 .projectdescription {
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .lastproj {
@@ -135,7 +135,6 @@ button.navbar-toggler:focus { outline: 1px none; }
 
 .landing {
    position: absolute;
-   
    top: 50%;
    left: 50%;
    width: 800px;
@@ -155,6 +154,7 @@ html, body {
 
 .aboutmetext {
 	text-align: center;
+	padding-top: 15px;
 }
 
 .aboutmesection {
@@ -163,6 +163,42 @@ html, body {
    width: 100%;
 }
 
+
+
+.fullsizeimg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+
+.imgcentered {
+	max-width: 56%;
+    max-height: 100%;
+    margin: auto;
+    overflow: hidden;
+	position: relative;
+}
+
+/*
+.portraittry2 {
+	position: relative;
+	height: 60%;
+	overflow: hidden
+	
+}
+
+.portraitimg {
+	overflow: hidden;
+	
+}
+*/
 
 
 /*
