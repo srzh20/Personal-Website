@@ -25,40 +25,37 @@
 	
 <!--Gallery-->
 
-<div class="container Gallery">
+<div class="container-fluid Gallery">
 
       <div class="row text-center text-lg-left">
 
         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="DyslexicImageCarasoul.html" id="home"><img class="image_on img-thumbnail" src="assets/DyslexicSculpture/30601550_2133174750289027_7479799044789764096_n.jpg" alt="logo" /><img class="image_off img-thumbnail" src="assets/DyslexicSculpture/30084606_1686014768147814_3227031022243676160_n.jpg" alt="logo" /></a>  <a href="#" class="d-block mb-4 h-100">
+          <a href="GalleryPages/DyslexicImageCarasoul.html" id="home"><img class="image_on img-thumbnail" src="assets/DyslexicSculpture/30601550_2133174750289027_7479799044789764096_n.jpg" alt="logo" /><img class="image_off img-thumbnail" src="assets/DyslexicSculpture/30084606_1686014768147814_3227031022243676160_n.jpg" alt="logo" /></a>  <a href="#" class="d-block mb-4 h-100">
             
           </a>
         </div>
         
         <div class="col-lg-3 col-md-4 col-xs-6">
-           <a href="FishDrawing.html"> <img src="assets/FishDrawing/39352018_2143769992325548_816362471998733641_n.jpg" class="image_on img-thumbnail"> </a>
+           <a href="GalleryPages/FishDrawing.html"> <img src="assets/FishDrawing/39352018_2143769992325548_816362471998733641_n.jpg" class="image_on img-thumbnail"> </a>
         </div>
 		  
 		  <div class="col-lg-3 col-md-4 col-xs-6">
-           <a href="Handdrawing.html"><img src="assets/HandDrawing/38910945_1991182987570284_5384630536014324080_n.jpg" class="image_on img-thumbnail">
+           <a href="GalleryPages/Handdrawing.html"><img src="assets/HandDrawing/38910945_1991182987570284_5384630536014324080_n.jpg" class="image_on img-thumbnail">
 			  </a>
         </div>
 		  
 		    <div class="col-lg-3 col-md-4 col-xs-6">
-           <a href="FishDrawing.html"> <img src="assets/instaDrawings/23594512_543259386025922_5690257176669454336_n.jpg" class="image_on img-thumbnail"> </a>
+           <a href="GalleryPages/GreenWater.html"> <img src="assets/instaDrawings/23594512_543259386025922_5690257176669454336_n.jpg" class="image_on img-thumbnail"> </a>
         </div>
 		  
 		    <div class="col-lg-3 col-md-4 col-xs-6">
-           <a href="RedWater.html"> <img src="assets/instaDrawings/23594584_1015373368618835_4734188024831672320_n.jpg" class="image_on img-thumbnail"> </a>
+           <a href="GalleryPages/RedWater.html"> <img src="assets/instaDrawings/23594584_1015373368618835_4734188024831672320_n.jpg" class="image_on img-thumbnail"> </a>
         </div>
 		  
-		    <div class="col-lg-3 col-md-4 col-xs-6">
-           <a href="FishDrawing.html"> <img src="assets/instaDrawings/23421876_335473293592621_1799741968771710976_n.jpg" class="image_on img-thumbnail"> </a>
+		    <div class="col-lg-3 col-md-4 col-xs-6 lastproj">
+           <a href="GalleryPages/LwtDrawing.html"> <img src="assets/instaDrawings/23421876_335473293592621_1799741968771710976_n.jpg" class="image_on img-thumbnail"> </a>
         </div>
 		  
-		    <div class="col-lg-3 col-md-4 col-xs-6">
-           <a href="FishDrawing.html"> <img src="assets/FishDrawing/39352018_2143769992325548_816362471998733641_n.jpg" class="image_on img-thumbnail"> </a>
-        </div>
         
         
        
@@ -68,8 +65,10 @@
 </div>
 </div>
 
+
 <!--Bottom Nav Bar-->
-<nav class="navbar fixed-bottom navbar-light justify-content-center" id="bottomnav">
+	
+<nav class="navbar fixed-bottom navbar-light justify-content-center d-none d-sm-block bottomnav">
 	<div class="container justify-content-center" bottomcont>
 		<div class="row justify-content-center" id="bottombar">
 			<h3 class="col"> 
@@ -82,11 +81,39 @@
 				<a href="about.html"><button class="btn btn-sm" type="button">About</button></a>
 			</h3>
 			<h3 class="col"> 
-				<a href="Seamus_Resume.pdf" style="text-align: center"><button class="btn btn-sm" type="button">Resumé</button></a>
+					<a href="Seamus_Resume.pdf" style="text-align: center"><button class="btn btn-sm" type="button">Resumé</button></a>
 			</h3>
 		</div>
 	</div>
 </nav>	
+
+<!--===================================Mobile Nav=================================-->
+
+
+	
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-light d-block d-sm-none bottomnav">
+<!--      <a class="navbar-brand" href="#">Bottom navbar</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="gallery.html"><button class="btn btn-sm" type="button">Gallery</button></a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html"><button class="btn btn-sm" type="button">Projects</button></a>
+          </li>
+		  <li class="nav-item">
+           <a href="about.html"><button class="btn btn-sm" type="button">About</button></a>
+          </li>
+		  <li class="nav-item">
+           <a href="Seamus_Resume.pdf" style="text-align: center"><button class="btn btn-sm" type="button">Resumé</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	
 	
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

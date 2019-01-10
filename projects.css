@@ -6,13 +6,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
   margin-top: 40px;
-  
+}
   /*margin-left: auto;*/
   /*margin-right: auto;*/
   /*transform: translate(+50%, +50%);*/
-}
+
 
 #whitespace {
   color: white;
@@ -24,10 +24,12 @@
   margin: 20px;
 }
 
+/*
 .flex-container {
   display: inline-block;
   flex-direction: column;
 }
+*/
 
 /* Split the screen in half */
 .split {
@@ -63,6 +65,7 @@
 }
 
 /* Style the image inside the centered container, if needed */
+/*
 .centered img {
   width: 100%;
   margin-top: 15px;
@@ -70,3 +73,25 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+*/
+
+/* put into website2
+.mobile {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+*/
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+

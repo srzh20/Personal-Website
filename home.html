@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="WebsiteStyleV2.css" rel="stylesheet" type="text/css">
+    <link href="Home.css" rel="stylesheet" type="text/css">
   <title>Seamus Hall</title>
   </head>
 <body>
@@ -16,7 +17,7 @@
 	
 <!--Landing Page Section	-->
 	
-<section class="container-fluid px-0">
+
 	  
 <!--Top Nav Bar-->
 		
@@ -74,20 +75,48 @@
   </a>
 </div>
 -->
-<!-- CAROUSEL -->
+<!-- CAROUSEL -->	
 
-<div class="container align-content-center">
-	<div class="img-fluid justify-content-center" id="landingimg"> 
-	<img src="https://www.pennington.com/-/media/Images/Pennington-NA/US/blog/fertilizer/Nurturing-Norfolk-Island-Pines-Year-Round/Nurturing_Header.jpg?h=480&la=en&w=1140&hash=DAC9393EFE733F8211FBDBF37827C61DCAB97A89" alt="#">
+<!--
+<div class="container">
+		
+		<img src="https://www.pennington.com/-/media/Images/Pennington-NA/US/blog/fertilizer/Nurturing-Norfolk-Island-Pines-Year-Round/Nurturing_Header.jpg?h=480&la=en&w=1140&hash=DAC9393EFE733F8211FBDBF37827C61DCAB97A89" class="img-fluid" alt="#" >
+
+</div>
+-->
+
+
+<!--
+
+    	<div class="landing">
+        	<img src="https://www.pennington.com/-/media/Images/Pennington-NA/US/blog/fertilizer/Nurturing-Norfolk-Island-Pines-Year-Round/Nurturing_Header.jpg?h=480&la=en&w=1140&hash=DAC9393EFE733F8211FBDBF37827C61DCAB97A89" class="img-fluid" alt="#" >
 
 	</div>
-</div>
+-->
+	
+	
+
+
+    <div class="landing d-none d-lg-block">
+        	<img src="assets/Rivercrest/DSC_0086ian is asian.jpg" class="img-fluid" alt="#" >
+
+	</div>
+	
+	
+
+	<div class="mobilelanding mobile d-sm-block d-md-block d-lg-none">
+        	<img src="assets/Rivercrest/DSC_0086ian is asian.jpg" class="img-fluid" alt="#" >
+
+	</div>
+	
+	
+
 <!--Bottom Nav Bar-->
-	  
-<nav class="navbar fixed-bottom navbar-light justify-content-center" id="homebottomnav">
+	
+<nav class="navbar fixed-bottom navbar-light justify-content-center d-none d-sm-block bottomnav">
 	<div class="container justify-content-center" bottomcont>
 		<div class="row justify-content-center" id="bottombar">
-		    <h3 class="col"> 
+			<h3 class="col"> 
 				<a href="gallery.html"><button class="btn btn-sm" type="button">Gallery</button></a>
 			</h3>
 			<h3 class="col"> 
@@ -97,11 +126,38 @@
 				<a href="about.html"><button class="btn btn-sm" type="button">About</button></a>
 			</h3>
 			<h3 class="col"> 
-				<a href="Seamus_Resume.pdf" style="text-align: center"><button class="btn btn-sm" type="button">Resumé</button></a>
+					<a href="Seamus_Resume.pdf" style="text-align: center"><button class="btn btn-sm" type="button">Resumé</button></a>
 			</h3>
 		</div>
 	</div>
 </nav>	
+
+<!--===================================Mobile Nav=================================-->
+
+
+	
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-light d-block d-sm-none bottomnav">
+<!--      <a class="navbar-brand" href="#">Bottom navbar</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="gallery.html"><button class="btn btn-sm" type="button">Gallery</button></a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html"><button class="btn btn-sm" type="button">Projects</button></a>
+          </li>
+		  <li class="nav-item">
+           <a href="about.html"><button class="btn btn-sm" type="button">About</button></a>
+          </li>
+		  <li class="nav-item">
+           <a href="Seamus_Resume.pdf" style="text-align: center"><button class="btn btn-sm" type="button">Resumé</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 	
 <!--	
 	</section>

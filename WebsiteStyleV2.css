@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-#LandingSection{
-	height: 100%;
-}
 
 /*img.gallery:hover {*/
 /*	background-image: url(https://i.imgur.com/GSJk3U0.png);*/
@@ -12,17 +9,6 @@
 }
 
 
-#landingimg {
-  justify-content: center;
-	height: 400px;
-	align-content: center;
-	align-items: center;
-	padding-top: auto;
-	padding-bottom: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	
-}
 
 
 #picdiv {
@@ -43,11 +29,12 @@
 	height: 100px;
 }
 
-#bottomnav {
+.bottomnav {
 	background-color: #FFFFFF;
+	text-align: center;
 }
 
-#homebottomnav {
+.homebottomnav {
 	background-color: #FFFFFF;
 	height: 200px;
 }
@@ -56,10 +43,12 @@
 	margin: 0;
 }
 
+/*
 .flex-container {
   display: flex;
   justify-content: center;
 }
+*/
 
 .image_off, #home:hover .image_on{
    display:none
@@ -86,20 +75,106 @@
 	padding-bottom: 10px;
 }
 
-#handdrawing {
+.desktopportrait { 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
+  width: 45%;
 }
 
 .img-thumbnail{
 	border: #FFFFFF thin dotted;
 }
 
-#video {
 
+button {
+	border: #FFFFFF solid thin;
 }
+
+
+.navbar-toggler{
+	border: #FFFFFF;
+}
+
+button.navbar-toggler:focus { outline: 1px none; }
+
+
+.projectdescription {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.lastproj {
+	padding-bottom: 100px;
+}
+
+.mobile {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered img {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projectmobiletext {
+	padding-top: 15px;
+}
+
+.landing {
+   position: absolute;
+   
+   top: 50%;
+   left: 50%;
+   width: 800px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -400px; /* Half the width */
+}
+
+html, body {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+
+.aboutmetext {
+	text-align: center;
+}
+
+.aboutmesection {
+   position: absolute;
+   top: 25%;
+   width: 100%;
+}
+
+
+
+/*
+.mobileshow { 
+display:none; 
+}
+@media screen and (max-width: 500px) {
+.mobileshow { 
+display:block; }
+}
+
+*/
 
 
 
