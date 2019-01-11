@@ -45,16 +45,22 @@
 .left {
   left: 0;
   width: 40%;
-  background-color: #C4C4C4;
-	padding-bottom: 60px;
+ background-color:#C0C0C0;
+		padding-left: 15px;
+	padding right: 15px;
+  padding-bottom: 60px;
+
+	overflow: hidden
 }
+
+
 
 /* Control the right side */
 .right {
   right: 0;
   width: 60%;
   background-color: #FFF;
-  
+
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -65,9 +71,25 @@
   transform: translate(-50%, -50%);
   text-align: center;
 	padding-bottom: 120px;
+	padding-right 60px:
+	
 }
 
+ul { 
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+	text-align: left;
+}
 
+.padding {
+	padding-right: 45px;
+	padding-right:15px;
+}
 
 /* Style the image inside the centered container, if needed */
 /*
@@ -96,7 +118,7 @@
 }
 
 .mobileprojecttext {
-	
+
 }
 
 h2 {
@@ -112,7 +134,7 @@ h2 {
     padding-bottom:56.25%;
     position:relative;
     height: 0;
-	
+
 }
 .video-responsive iframe{
     left:0;
@@ -121,7 +143,7 @@ h2 {
     height:100%;
     width: 100%;
     position:absolute;
-	
+
 
 }
 
@@ -132,7 +154,7 @@ h2 {
 }
 
 
-.videowrapper { 
+.videowrapper {
         float: none;
         clear: both;
         width: 700px;
@@ -164,22 +186,5 @@ max-height: 400px;
   overflow-x: auto;
 	right: 0;
   width: 60%;
-	
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

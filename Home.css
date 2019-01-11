@@ -1,21 +1,19 @@
 target="_blank"target="_blank"@charset "utf-8";
 
 
-.landing {
-   position: absolute;
-   
-   top: 50%;
-   left: 50%;
-   width: 800px;
-   height: 500px;
-   margin-top: -250px; /* Half the height */
-   margin-left: -400px; /* Half the width */
-}
+ .landing {
 
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+  
+}
+/*
 .mobilelanding {
 	position: absolute;
 	top: 25%;
-}
+} */
 
 html, body {
    height:100%;
